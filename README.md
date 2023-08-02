@@ -24,7 +24,7 @@
     $ cd Desktop
     $ mkdir Gasmask
     $ cd Gasmask
-    $ git clone https://github.com/kongali1720/gasmask.git
+    $ git clone https://github.com/twelvesec/gasmask.git
     $ ls
     $ cd gasmask
     $ ls
