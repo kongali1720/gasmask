@@ -20,3 +20,15 @@ instagram, crt, ask, dogpile. These were the modules for which the tool uses the
     Gasmask uses the following modules to perform reconnaissance dns, netcraft, whois, bing, censys.io, dns, Github, dnsdumpster,  instagram, crt, ask, etc.
     Gasmask is a free tool. You don’t need to pay any amount to anyone to use this tool as it is an open-source tool.
 
+# Gasmask installation:
+cd Desktop
+mkdir Gasmask
+cd Gasmask
+git clone https://github.com/kongali1720/gasmask.git
+ls
+cd gasmask
+ls
+pip3 install -r requirements.txt
+python3 gasmask.py
+python3 gasmask.py -d testphp.vulnweb.com -i basic
+python3 gasmask.py -d testphp.vulnweb.com -i whois
